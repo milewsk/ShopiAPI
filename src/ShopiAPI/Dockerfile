@@ -7,10 +7,10 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["ShopiAPI/ShopiAPI.csproj", "ShopiAPI/"]
-RUN dotnet restore "ShopiAPI/ShopiAPI.csproj"
+COPY ["src/ShopiAPI/ShopiAPI.csproj", "src/ShopiAPI/"]
+RUN dotnet restore "src/ShopiAPI/ShopiAPI.csproj"
 COPY . .
-WORKDIR "/src/ShopiAPI"
+WORKDIR "/src/src/ShopiAPI"
 RUN dotnet build "ShopiAPI.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish

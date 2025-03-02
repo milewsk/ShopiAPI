@@ -1,4 +1,4 @@
-@ShopiAPI_HostAddress = http://localhost:5019
+@ShopiAPI_HostAddress = http://localhost:5121
 
 GET {{ShopiAPI_HostAddress}}/weatherforecast/
 Accept: application/json

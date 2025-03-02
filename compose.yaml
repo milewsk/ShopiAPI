@@ -4,3 +4,9 @@
     build:
       context: .
       dockerfile: ShopiAPI/Dockerfile
+
+  shopiapi-1:
+    image: shopiapi-1
+    build:
+      context: .
+      dockerfile: src/ShopiAPI/Dockerfile
