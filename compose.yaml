@@ -1,0 +1,6 @@
+﻿services:
+  shopiapi:
+    image: shopiapi
+    build:
+      context: .
+      dockerfile: ShopiAPI/Dockerfile
