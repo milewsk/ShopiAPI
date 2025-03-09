@@ -2,11 +2,11 @@ using Domain.Primitives;
 
 namespace Domain.Entities;
 
-public sealed class Asset : Entity
-{   
+public class User : Entity
+{
     #region Constructors
 
-    public Asset(Guid id) : base(id)
+    public User()
     {
     }
 
