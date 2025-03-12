@@ -1,6 +1,6 @@
-using Domain.Primitives;
+using Shopi.Domain.Primitives;
 
-namespace Domain.Entities;
+namespace Shopi.Domain.Entities;
 
 public sealed class Asset : Entity
 {   

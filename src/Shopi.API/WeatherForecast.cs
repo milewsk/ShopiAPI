@@ -1,4 +1,4 @@
-namespace ShopiAPI;
+namespace Shopi.API;
 
 public class WeatherForecast
 {

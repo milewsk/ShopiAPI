@@ -1,6 +1,6 @@
-using Domain.Abstractions;
+using Shopi.Domain.Abstractions;
 
-namespace Infrastructure;
+namespace Shopi.Infrastructure.Data;
 
 public class UnitOfWork : IUnitOfWork
 {

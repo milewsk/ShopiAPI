@@ -1,12 +1,12 @@
-using Domain.Primitives;
+using Shopi.Domain.Primitives;
 
-namespace Domain.Entities;
+namespace Shopi.Domain.Entities;
 
-public class User : Entity
+public class OrderLine : Entity
 {
     #region Constructors
 
-    public User()
+    public OrderLine()
     {
     }
 

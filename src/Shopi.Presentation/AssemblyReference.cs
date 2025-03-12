@@ -1,6 +1,6 @@
 using System.Reflection;
 
-namespace Domain;
+namespace Shopi.Presentation;
 
 public static class AssemblyReference
 {

@@ -1,4 +1,4 @@
-namespace Domain.Abstractions;
+namespace Shopi.Domain.Abstractions;
 
 public interface IUnitOfWork
 {

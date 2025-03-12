@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace Infrastructure;
+namespace Shopi.Infrastructure.Data;
 
 public class ApplicationDbContext : DbContext
 {

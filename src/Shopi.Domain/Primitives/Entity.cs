@@ -1,4 +1,4 @@
-namespace Domain.Primitives;
+namespace Shopi.Domain.Primitives;
 
 public abstract class Entity : IEquatable<Entity>
 {

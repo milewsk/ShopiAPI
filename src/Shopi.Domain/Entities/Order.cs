@@ -1,10 +1,12 @@
-namespace Domain.Entities;
+using Shopi.Domain.Primitives;
 
-public sealed class Model
+namespace Shopi.Domain.Entities;
+
+public sealed class Order : Entity
 {
     #region Constructors
 
-    public Model()
+    public Order()
     {
     }
 
