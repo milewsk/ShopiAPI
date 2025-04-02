@@ -1,3 +1,7 @@
+using Serilog;
+using Shopi.API.Middleware;
+using LoggerConfiguration = Shopi.API.Configuration.LoggerConfiguration;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -8,6 +12,8 @@ builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
+LoggerConfiguration.CreateLogger(builder);
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -15,6 +21,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// Logging
+app.UseMiddleware<RequestLogContextMiddleware>();
+app.UseSerilogRequestLogging();
 
 app.UseAuthorization();
 
