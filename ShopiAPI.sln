@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopi.Application", "src\Sh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopi.Infrastructure", "src\Shopi.Infrastructure\Shopi.Infrastructure.csproj", "{41F639AA-612E-47AC-A2BA-5C1A1945175F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopi.Common", "src\Shopi.Common\Shopi.Common.csproj", "{C975A67A-CE77-4FCA-8120-E09C2A85AFED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,5 +55,9 @@ Global
 		{41F639AA-612E-47AC-A2BA-5C1A1945175F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41F639AA-612E-47AC-A2BA-5C1A1945175F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41F639AA-612E-47AC-A2BA-5C1A1945175F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C975A67A-CE77-4FCA-8120-E09C2A85AFED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C975A67A-CE77-4FCA-8120-E09C2A85AFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C975A67A-CE77-4FCA-8120-E09C2A85AFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C975A67A-CE77-4FCA-8120-E09C2A85AFED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
