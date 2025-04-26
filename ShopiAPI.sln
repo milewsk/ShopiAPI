@@ -5,21 +5,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		compose.yaml = compose.yaml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopiAPI.UnitTests", "tests\ShopiAPI.UnitTests\ShopiAPI.UnitTests.csproj", "{01BE1F9C-5C33-4DB2-9B12-847ECFECC61E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{01BE1F9C-5C33-4DB2-9B12-847ECFECC61E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopi.API", "src\Shopi.API\Shopi.API.csproj", "{5E3270A1-9D4E-4EBD-BA00-2749A717D63B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.API", "src\Web.API\Web.API.csproj", "{5E3270A1-9D4E-4EBD-BA00-2749A717D63B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopi.Domain", "src\Shopi.Domain\Shopi.Domain.csproj", "{E585FFB2-B189-4E67-A9DA-5C76F869A0E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Domain\Domain.csproj", "{E585FFB2-B189-4E67-A9DA-5C76F869A0E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopi.Presentation", "src\Shopi.Presentation\Shopi.Presentation.csproj", "{CF6EA9FF-2DFA-48EE-80FE-C8D8575E5E12}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchitectureTests", "tests\ArchitectureTests\ArchitectureTests.csproj", "{CC10FEFC-3E00-4808-BD82-D344D1892F0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopiAPI.ArchitectureTests", "tests\ShopiAPI.ArchitectureTests\ShopiAPI.ArchitectureTests.csproj", "{CC10FEFC-3E00-4808-BD82-D344D1892F0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Application\Application.csproj", "{2190B9D2-887B-488E-BFB5-C3C6E1AF950D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopi.Application", "src\Shopi.Application\Shopi.Application.csproj", "{2190B9D2-887B-488E-BFB5-C3C6E1AF950D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{41F639AA-612E-47AC-A2BA-5C1A1945175F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopi.Infrastructure", "src\Shopi.Infrastructure\Shopi.Infrastructure.csproj", "{41F639AA-612E-47AC-A2BA-5C1A1945175F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopi.Common", "src\Shopi.Common\Shopi.Common.csproj", "{C975A67A-CE77-4FCA-8120-E09C2A85AFED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "src\Common\Common.csproj", "{C975A67A-CE77-4FCA-8120-E09C2A85AFED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,10 +37,6 @@ Global
 		{E585FFB2-B189-4E67-A9DA-5C76F869A0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E585FFB2-B189-4E67-A9DA-5C76F869A0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E585FFB2-B189-4E67-A9DA-5C76F869A0E1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CF6EA9FF-2DFA-48EE-80FE-C8D8575E5E12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF6EA9FF-2DFA-48EE-80FE-C8D8575E5E12}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF6EA9FF-2DFA-48EE-80FE-C8D8575E5E12}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF6EA9FF-2DFA-48EE-80FE-C8D8575E5E12}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CC10FEFC-3E00-4808-BD82-D344D1892F0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CC10FEFC-3E00-4808-BD82-D344D1892F0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC10FEFC-3E00-4808-BD82-D344D1892F0E}.Release|Any CPU.ActiveCfg = Release|Any CPU

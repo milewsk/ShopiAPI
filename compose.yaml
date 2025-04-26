@@ -3,10 +3,10 @@
     image: shopiapi
     build:
       context: .
-      dockerfile: ShopiAPI/Dockerfile
+      dockerfile: Shopi.API/Dockerfile
 
   shopiapi-1:
     image: shopiapi-1
     build:
       context: .
-      dockerfile: src/ShopiAPI/Dockerfile
+      dockerfile: src/Shopi.API/Dockerfile
