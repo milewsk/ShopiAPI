@@ -1,4 +1,4 @@
-namespace Domain.Entities;
+namespace Common;
 
 public sealed class Model
 {

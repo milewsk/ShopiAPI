@@ -1,4 +1,4 @@
-using Domain.Primitives;
+using Common;
 
 namespace Domain.Entities;
 

@@ -1,4 +1,4 @@
-namespace Domain.Primitives;
+namespace Common;
 
 public abstract class Entity : IEquatable<Entity>
 {
